@@ -1,0 +1,13 @@
+Client_ID,Client_Name,Client_Type,Industry,Primary_Contact,Email,Phone,Address,City,State,Zip,Engagement_Date,Lead_Attorney,Status,Total_Billed,Outstanding_Balance
+CL-001,Johnson Michael,Individual,N/A,Michael Johnson,mjohnson@email.com,(555) 111-2222,456 Oak Street,Chicago,IL,60610,2024-03-15,Sarah Morrison,Active,$42825.00,$8500.00
+CL-002,Apex Manufacturing Inc,Corporate,Manufacturing,Thomas Apex,tapex@apexmfg.com,(555) 333-4444,100 Industrial Blvd,Naperville,IL,60540,2020-06-01,William Morrison,Active,$156000.00,$0.00
+CL-003,Chen Family Trust,Trust,N/A,David Chen,dchen@email.com,(555) 555-6666,789 Maple Ave,Oak Brook,IL,60523,2019-11-20,Patricia Williams,Active,$28500.00,$4200.00
+CL-004,TechStart Solutions LLC,Corporate,Technology,Amanda Foster,afoster@techstart.io,(555) 777-8888,200 Innovation Way,Chicago,IL,60654,2023-01-10,David Chen,Active,$67200.00,$12000.00
+CL-005,Rodriguez Maria,Individual,N/A,Maria Rodriguez,mrodriguez@email.com,(555) 999-0000,321 Pine Street,Naperville,IL,60563,2024-01-22,Emily Watson,Active,$8750.00,$2500.00
+CL-006,Greenfield Properties Inc,Corporate,Real Estate,Robert Greenfield,rgreenfield@gfproperties.com,(555) 222-3333,500 Commerce Plaza,Chicago,IL,60601,2018-03-15,William Morrison,Active,$245000.00,$0.00
+CL-007,Park Dental Group,Corporate,Healthcare,Dr. Kevin Park,kpark@parkdental.com,(555) 444-5555,150 Medical Center Dr,Oak Brook,IL,60523,2022-08-01,Sarah Morrison,Active,$34600.00,$5800.00
+CL-008,Wilson Estate,Estate,N/A,James Wilson Jr,jwilson@email.com,(555) 666-7777,890 Lakefront Ave,Chicago,IL,60611,2023-07-15,Patricia Williams,Pending,$18200.00,$18200.00
+CL-009,Metro Construction Co,Corporate,Construction,Frank Metro,fmetro@metroconst.com,(555) 888-9999,300 Builder Lane,Naperville,IL,60564,2021-04-20,David Chen,Active,$89500.00,$15000.00
+CL-010,Adams Jennifer,Individual,N/A,Jennifer Adams,jadams@email.com,(555) 123-7890,555 Elm Court,Chicago,IL,60614,2024-02-28,Emily Watson,Active,$6200.00,$0.00
+CL-011,Sunrise Healthcare LLC,Corporate,Healthcare,Dr. Patricia Sunrise,psunrise@sunrisehc.com,(555) 234-8901,600 Wellness Way,Oak Brook,IL,60523,2020-10-10,Sarah Morrison,Active,$178000.00,$22000.00
+CL-012,Foster Family Trust,Trust,N/A,Amanda Foster,afoster2@email.com,(555) 345-9012,425 Estate Drive,Chicago,IL,60657,2022-12-05,Patricia Williams,Active,$42300.00,$8000.00

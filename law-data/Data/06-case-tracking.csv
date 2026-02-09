@@ -1,0 +1,11 @@
+Case_Number,Case_Name,Client_ID,Case_Type,Filing_Date,Court,Judge,Status,Lead_Attorney,Associate,Next_Deadline,Deadline_Description,Estimated_Value,Priority
+2024-CV-00892,Johnson v. Apex Manufacturing Inc,CL-001,Employment Discrimination,2024-03-15,U.S. District Court Northern IL,Hon. Patricia Williams,Discovery,Sarah Morrison,David Chen,2024-06-12,Deposition - Robert Lee,$1180000,High
+2024-CV-01023,TechStart v. InnovateTech LLC,CL-004,Patent Infringement,2024-04-22,U.S. District Court Northern IL,Hon. Michael Brown,Pleadings,David Chen,Emily Watson,2024-05-30,Motion to Dismiss Response,$2500000,High
+2024-PR-00156,Wilson Estate Probate,CL-008,Probate,2023-07-15,Cook County Probate Court,Hon. Susan Martinez,Administration,Patricia Williams,None,2024-06-01,Inventory Filing,$850000,Medium
+2023-CV-02341,Greenfield v. City of Chicago,CL-006,Zoning Dispute,2023-09-10,Cook County Circuit Court,Hon. Robert Johnson,Trial Prep,William Morrison,Sarah Morrison,2024-07-15,Trial Date,$4200000,High
+2024-FAM-00089,Rodriguez Dissolution,CL-005,Family Law - Divorce,2024-01-22,DuPage County Family Court,Hon. Linda Garcia,Negotiation,Emily Watson,None,2024-05-20,Mediation Session,$150000,Medium
+2024-CV-00445,Metro Construction v. Supplier Inc,CL-009,Contract Dispute,2024-02-14,Cook County Circuit Court,Hon. David Kim,Discovery,David Chen,Emily Watson,2024-06-05,Discovery Responses Due,$890000,Medium
+2023-CV-01876,Park Dental v. Insurance Co,CL-007,Insurance Dispute,2023-06-20,Cook County Circuit Court,Hon. Patricia Williams,Settlement,Sarah Morrison,David Chen,2024-05-25,Settlement Conference,$340000,Low
+2024-BK-00234,Sunrise Healthcare Restructuring,CL-011,Bankruptcy Advisory,2024-03-01,U.S. Bankruptcy Court,Hon. James Wilson,Advisory,Sarah Morrison,None,2024-06-15,Restructuring Plan Review,$5600000,High
+2024-RE-00567,Chen Family Property Transfer,CL-003,Real Estate,2024-04-10,N/A,N/A,Closing,Patricia Williams,None,2024-05-28,Closing Date,$1200000,Medium
+2024-CORP-00123,Adams Business Formation,CL-010,Corporate Formation,2024-02-28,N/A,N/A,Drafting,Emily Watson,None,2024-05-18,Operating Agreement Due,$25000,Low

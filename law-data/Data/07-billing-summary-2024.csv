@@ -1,0 +1,21 @@
+Month,Attorney,Billable_Hours,Billed_Amount,Collections,Write_Offs,Realization_Rate,Cases_Worked,New_Matters,Expenses_Incurred
+Jan-2024,Sarah Morrison,168,$75600,$68400,$2200,92%,8,2,$3450
+Jan-2024,David Chen,156,$42900,$38600,$1800,91%,6,1,$2100
+Jan-2024,Emily Watson,142,$28400,$25800,$900,92%,5,3,$1200
+Jan-2024,Patricia Williams,138,$65550,$62000,$1500,95%,4,1,$890
+Jan-2024,William Morrison,112,$61600,$61600,$0,100%,3,0,$450
+Feb-2024,Sarah Morrison,175,$78750,$71200,$3100,92%,9,1,$4200
+Feb-2024,David Chen,162,$44550,$40100,$2000,91%,7,2,$2800
+Feb-2024,Emily Watson,148,$29600,$27500,$800,94%,6,2,$1450
+Feb-2024,Patricia Williams,145,$68875,$65400,$1800,96%,5,0,$1100
+Feb-2024,William Morrison,118,$64900,$64900,$0,100%,4,1,$600
+Mar-2024,Sarah Morrison,182,$81900,$73700,$2800,92%,10,2,$5100
+Mar-2024,David Chen,170,$46750,$42100,$2100,91%,8,1,$3200
+Mar-2024,Emily Watson,155,$31000,$28900,$750,94%,7,1,$1680
+Mar-2024,Patricia Williams,152,$72200,$68600,$1900,96%,6,1,$1350
+Mar-2024,William Morrison,125,$68750,$68750,$0,100%,5,0,$720
+Apr-2024,Sarah Morrison,178,$80100,$72900,$2500,93%,9,1,$4800
+Apr-2024,David Chen,165,$45375,$40800,$2000,91%,7,2,$2950
+Apr-2024,Emily Watson,150,$30000,$27600,$900,93%,6,2,$1520
+Apr-2024,Patricia Williams,148,$70300,$66800,$1600,96%,5,0,$1200
+Apr-2024,William Morrison,120,$66000,$66000,$0,100%,4,1,$580
