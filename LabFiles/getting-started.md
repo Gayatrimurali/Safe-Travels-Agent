@@ -68,31 +68,27 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
 
 ## Let's Get Started with Power Apps Portal
 
-1. In the JumpVM, click the **Microsoft Edge** browser shortcut on the desktop.
+1. In the JumpVM, click on the **Microsoft Edge** browser shortcut on the desktop.
 
-   ![](../media/gs-leave-5.png)
+   ![](../media/zgr-gt.png)
 
-1. Open a new browser tab and navigate to the Power Apps portal using the link below:
+1. Open a new browser tab and navigate to the Power Apps portal by entering the following URL:
 
    ```
    https://make.powerapps.com/
    ```
 
-   >Note: Since you are working within a VM, please copy the above link and open it in the browser inside the VM.
+1. On the **Sign into Microsoft** tab, enter the following email **(1)** in the email field, and then click **Next (2)** to proceed.
 
-1. On the **Sign into Microsoft** tab, you will see the login screen. Enter the provided email or username, and click **Next** to proceed.
+   - Email: **<inject key="AzureAdUserEmail"></inject>**
 
-   - Email/Username: <inject key="AzureAdUserEmail"></inject>
+     ![](../media/gs-lab3-g2.png)
 
-     ![](../media/ex1-travel-g24.png)
+1. On the **Enter Temporary Access Pass** screen, enter the following **Temporary Access Pass**, and then click **Sign in (2)**.
 
-1. Now, enter the following password and click on **Sign in**.
+   - Temporary Access Pass: **<inject key="AzureAdUserPassword"></inject>**
 
-   - Password: <inject key="AzureAdUserPassword"></inject>
-
-     ![](../media/gs-3.png)
-
-     >**Note:** If you see the Action Required dialog box, then select Ask Later option.
+     ![](../media/gs-lab3-g3.png)
      
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 
@@ -102,9 +98,86 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
 
    ![](../media/gs-travel-g1.png)
 
-1. You have now successfully logged in to the Power Apps portal. Keep the portal open, as you will be using it later in the lab.
+1. You have now successfully logged in to the Power Apps portal. Keep the portal open.
 
    ![](../media/gs-5.png)
+
+   > **Note:** We are signing in to the Power Apps portal because it automatically assigns a Developer license, which is required to create and use a Developer environment in the next steps.
+
+1. Open a new browser tab and navigate to the Power Platform admin center by entering the following URL:
+
+   ```
+   https://admin.powerplatform.microsoft.com
+   ```
+
+1. In the **Power Platform admin center**, select **Manage** from the left navigation pane.
+
+   ![](../media/nd-d2-cor-g-1.png)
+
+1. In the Power Platform admin center, select **Environments (1)** from the left navigation pane, and then choose **New (2)** to create a new environment.
+
+   ![](../media/d2-coor-gs-g2.png)
+
+1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (3)**:
+
+   - Select **Developer (1)** from the **Type** dropdown.
+   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (2)** field.
+
+      ![](../media/lev-mgmt-sb-gs-g1.png)
+
+1. In the **Add Dataverse** pane, leave all settings as default, and then select **Save**.
+
+   ![](../media/lev-mgmt-sb-gs-g2.png)
+
+   > **Environment Foundation:** This step creates the foundational environment that will support your agents with company-specific data and knowledge sources.
+
+   > **Note:** Environment provisioning may take 10-15 minutes to complete. Wait until the status shows as ready before proceeding.
+
+   > **Note:** If you see an error stating that the environment list cannot be displayed, this is expected while the environment is being created in the background. After 10-15 minutes, refresh the browser and the environment should appear.
+
+1. In the **Power Platform admin center**, select **Manage (1)**, choose **Environments (2)**, and then click **ODL_User <inject key="DeploymentID" enableCopy="false"/>'s Environment (3)**.
+
+   ![](../media/uppowadminimg1.png)
+
+1. In the environment page, click on **See all** under **S2S apps**.
+
+   ![](../media/pro-activ-gg-g3.png)
+
+1. In the next pane, click on **+ New app user**.
+
+   ![](../media/uppowadminimg3.png)
+
+1. In the create a new app user pane, under **App**, click on **+ Add an app**.
+
+   ![](../media/pro-activ-gg-g4.png)
+
+1. In the **Add an app from Microsoft Entra ID** pane, enter the URL provided below in the search box **(1)**, select the app from the results **(2)**, and then click **Add (3)**.
+
+   ```
+   https://cloudlabssandbox.onmicrosoft.com/cloudlabs.ai/
+   ```
+
+   ![](../media/pro-activ-gg-g5.png)
+
+1. Under **Business unit**, enter **org (1)** in the search box, and then select the available business unit from the list **(2)**.
+
+   ![](../media/pro-activ-gg-g6.png)
+
+1. Beside **Security roles** click on **Edit** icon.
+
+   ![](../media/pro-activ-gg-g7.png)
+
+1. In the **Sync Permissions** pane, select **System Administrator (1)**, and then click **Save (2)**.
+
+   ![](../media/pro-activ-gg-g8.png)
+
+1. In the pop-up window, select **save**.
+
+   ![](../media/pro-activ-gg-g9.png)
+
+1. Review all the details and click on **Create**.
+
+   ![](../media/pro-activ-gg-g10.png)
 
 ## Support Contact
 
@@ -118,6 +191,5 @@ Learner Support Contacts:
 Now, click on the **Next** from lower right corner to move on next page.
 
    ![](../media/a-gs-g1.png)
-
 
 ## Happy Learning!!
