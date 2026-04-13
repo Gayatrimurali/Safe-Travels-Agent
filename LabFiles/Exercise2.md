@@ -168,6 +168,13 @@ In this task, you will add Microsoft Teams actions, dynamic content, response ha
 
    ![Flow Published](../media/ex2-travel-g29.png)
 
+<validation step="79aacbd4-3125-426d-8b4f-fc9a29efaa87" />
+ 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
 ## Task 3: Integrate Travel Approval Flow into Agent and Test
 
 In this task, you will connect the published flow to a new topic in the Safe Travels agent, map variables, publish updates, and test end-to-end execution, including Teams validation.
@@ -442,6 +449,13 @@ In this task, you will learn how the power of distributed AI systems, where spec
    ![](../media/ex2-travel-g85.png)
 
    > **Multi-Agent Success:** The seamless handoff between your Safe Travels agent and Leave Manager agent demonstrates successful orchestration, where specialized agents collaborate to provide comprehensive business solutions.
+
+<validation step="e50761be-041a-4631-8e82-ca3952b8aa3a" />
+ 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
 
 ## Summary
 

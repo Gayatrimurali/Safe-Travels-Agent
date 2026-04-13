@@ -328,6 +328,13 @@ In this task, you will publish your Safe Travels agent and deploy it to Microsof
 
 1. To start interacting with the agent. Ask a few travel-related questions and review the agent’s responses.
 
+<validation step="93a6c432-2df0-4b2a-bea2-658266d0ac58" />
+ 
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+> - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help.
+
 ## Summary
 
 You've successfully:
