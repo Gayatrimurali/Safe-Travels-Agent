@@ -95,90 +95,79 @@
 
    ![](../media/gs6.png)
 
-1. If the **Welcome to Power Apps** pop-up appears, leave the default country/region selection and click **Get started**.
+1. **Welcome to Power Apps** のポップアップが表示された場合は、既定の国/地域の選択のままにして、**Get started** を選択します。
 
-   ![](../media/gs-travel-g1.png)
+   ![](../media/japan1.png)
 
-1. You have now successfully logged in to the Power Apps portal. Keep the portal open.
+1. これで Power Apps ポータルへのログインが正常に完了しました。このままポータルを開いた状態にしておきます。
 
-   ![](../media/gs-5.png)
+   ![](../media/japan2.png)
 
-   > **Note:** We are signing in to the Power Apps portal because it automatically assigns a Developer license, which is required to create and use a Developer environment in the next steps.
+   > **注:** Power Apps ポータルにサインインすることで、自動的に Developer ライセンスが割り当てられます。このライセンスは、次の手順で Developer 環境を作成および使用するために必要です。
 
-1. Open a new browser tab and navigate to the Power Platform admin center by entering the following URL:
+1. Power Apps ポータルで、左側メニューから **Tables (1)** を選択し、**Create a database (2)** を選択します。
+
+   > **注:** **Create Database** オプションが表示されず、すでにいくつかのテーブルが表示されている場合は、**ステップ 10** から続行してください。
+
+1. 新しいデータベースを作成するためのペインで、**Create my Database** を選択します。
+
+1. 完了したら、**Create with Excel or .CSV file** を選択します。
+
+   ![](../media/japan3.png)
+
+1. 環境を作成するポップアップウィンドウで、**Create** を選択します。これにより、新しい Power Platform の開発者環境が作成されます。
+
+1. 新しいブラウザータブを開き、以下の URL を入力して Power Platform 管理センターにアクセスします。
 
    ```
    https://admin.powerplatform.microsoft.com
    ```
 
-1. In the **Power Platform admin center**, select **Manage** from the left navigation pane.
+1. **Power Platform 管理センター** で、**Manage (1)** を選択し、次に **Environments (2)** を選択し、その後 **ODL_User &lt;inject key="DeploymentID" enableCopy="false"/&gt; の環境 (3)** を選択します。
 
-   ![](../media/nd-d2-cor-g-1.png)
+   ![](../media/japan20.png)
 
-1. In the Power Platform admin center, select **Environments (1)** from the left navigation pane, and then choose **New (2)** to create a new environment.
+   > 注: 環境が表示されない場合は、バックグラウンドでまだ作成中である可能性があります。これは Power Platform における正常な動作です。15～20分ほど待ってからページを更新してください。
 
-   ![](../media/d2-coor-gs-g2.png)
+1. 環境ページで、**S2S apps** の下にある **See all** を選択します。
 
-1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (3)**:
+   ![](../media/japan7.png)
 
-   - Select **Developer (1)** from the **Type** dropdown.
-   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (2)** field.
+1. 次のペインで、**+ New app user** を選択します。
 
-      ![](../media/lev-mgmt-sb-gs-g1.png)
+   ![](../media/japan8.png)
 
-1. In the **Add Dataverse** pane, leave all settings as default, and then select **Save**.
+1. **Create a new app user** ペインで、**App** の下にある **+ Add an app** を選択します。
 
-   ![](../media/lev-mgmt-sb-gs-g2.png)
+   ![](../media/japan9.png)
 
-   > **Environment Foundation:** This step creates the foundational environment that will support your agents with company-specific data and knowledge sources.
-
-   > **Note:** Environment provisioning may take 10-15 minutes to complete. Wait until the status shows as ready before proceeding.
-
-   > **Note:** If you see an error stating that the environment list cannot be displayed, this is expected while the environment is being created in the background. After 10-15 minutes, refresh the browser and the environment should appear.
-
-1. In the **Power Platform admin center**, select **Manage (1)**, choose **Environments (2)**, and then click **ODL_User <inject key="DeploymentID" enableCopy="false"/>'s Environment (3)**.
-
-   ![](../media/uppowadminimg1.png)
-
-1. In the environment page, click on **See all** under **S2S apps**.
-
-   ![](../media/pro-activ-gg-g3.png)
-
-1. In the next pane, click on **+ New app user**.
-
-   ![](../media/uppowadminimg3.png)
-
-1. In the create a new app user pane, under **App**, click on **+ Add an app**.
-
-   ![](../media/pro-activ-gg-g4.png)
-
-1. In the **Add an app from Microsoft Entra ID** pane, enter the URL provided below in the search box **(1)**, select the app from the results **(2)**, and then click **Add (3)**.
+1. **Add an app from Microsoft Entra ID** ペインで、検索ボックスに以下の URL を入力 **(1)** し、結果からアプリを選択 **(2)**、その後 **Add (3)** を選択します。
 
    ```
    https://cloudlabssandbox.onmicrosoft.com/cloudlabs.ai/
    ```
 
-   ![](../media/pro-activ-gg-g5.png)
+      ![](../media/japan10.png)
 
-1. Under **Business unit**, enter **org (1)** in the search box, and then select the available business unit from the list **(2)**.
+1. Business Unit の下で、テキスト入力フィールドをクリックして利用可能なオプションを表示し、一覧からいずれかのビジネスユニットを選択します。
 
-   ![](../media/pro-activ-gg-g6.png)
+   ![](../media/japan11.png)
 
-1. Beside **Security roles** click on **Edit** icon.
+1. **Security roles** の横にある **Edit** アイコンを選択します。
 
-   ![](../media/pro-activ-gg-g7.png)
+   ![](../media/japan12.png)
 
-1. In the **Sync Permissions** pane, select **System Administrator (1)**, and then click **Save (2)**.
+1. **Sync Permissions** ペインで、**System Administrator (1)** を選択し、その後 **Save (2)** を選択します。
 
-   ![](../media/pro-activ-gg-g8.png)
+   ![](../media/japan13.png)
 
-1. In the pop-up window, select **save**.
+1. ポップアップウィンドウで、**Save** を選択します。
 
-   ![](../media/pro-activ-gg-g9.png)
+   ![](../media/japan14.png)
 
-1. Review all the details and click on **Create**.
+1. すべての詳細を確認し、**Create** を選択します。
 
-   ![](../media/pro-activ-gg-g10.png)
+   ![](../media/japan15.png)
 
 ## Support Contact
 
