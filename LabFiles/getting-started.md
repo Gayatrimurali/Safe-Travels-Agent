@@ -79,19 +79,19 @@
    https://make.powerapps.com/
    ```
 
-1. On the **Sign into Microsoft** tab, enter the following email **(1)** in the email field, and then click **Next (2)** to proceed.
+1. **Sign into Microsoft** タブで、メール欄に以下のメールアドレスを入力 **(1)** し、**Next (2)** をクリックして続行します。
 
    - Email: **<inject key="AzureAdUserEmail"></inject>**
 
      ![](../media/gs4.png)
 
-1. On the **Enter Temporary Access Pass** screen, enter the following **Temporary Access Pass**, and then click **Sign in (2)**.
-
+1. **Enter Temporary Access Pass** 画面で、以下の **一時アクセスパス (Temporary Access Pass)** を入力し、**Sign in (2)** をクリックします。
+   
    - Temporary Access Pass: **<inject key="AzureAdUserPassword"></inject>**
 
      ![](../media/gs5.png)
      
-1. If you see the pop-up **Stay Signed in?**, click **No**.
+1. **Stay Signed in?（サインイン状態を維持しますか？）** のポップアップが表示された場合は、**No** をクリックします。
 
    ![](../media/gs6.png)
 
