@@ -1,78 +1,79 @@
-# Build and Enhance a Safe Travels Agent with Multi-Agent Orchestration
+# マルチエージェントオーケストレーションを用いた Safe Travels Agent の構築と強化
 
-### Overall Estimated Duration: 1 Hour
+### 全体の推定所要時間：1時間
 
-## Overview
+## 概要
 
-In this hands-on lab, you will build and configure a Safe Travels Agent using Microsoft Copilot Studio to assist employees with travel planning, policy queries, and approval workflows. The agent leverages multi-agent orchestration to seamlessly delegate specialized tasks, such as leave balance inquiries, to a dedicated Leave Manager Agent. By integrating with Microsoft Teams and Power Automate, you will create an intelligent, automated system that enhances employee experience and streamlines business processes.
+このハンズオンラボでは、Microsoft Copilot Studio を使用して Safe Travels Agent を構築および構成し、従業員の出張計画、ポリシーに関する問い合わせ、承認ワークフローを支援します。このエージェントはマルチエージェントオーケストレーションを活用し、休暇残高の照会などの専門的なタスクを、専用の Leave Manager Agent にシームレスに委譲します。Microsoft Teams および Power Automate と統合することで、従業員体験を向上させ、業務プロセスを効率化するインテリジェントで自動化されたシステムを構築します。
 
-## Objectives
+## 目的
 
-By the end of this lab, you will:
+このラボを完了すると、以下が可能になります：
 
-- **Create and Deploy Safe Travels Agent:** Build a travel assistance agent using templates, integrate knowledge sources, and deploy to Microsoft Teams.
+- **Safe Travels Agent の作成とデプロイ：** テンプレートを使用して出張支援エージェントを構築し、ナレッジソースを統合し、Microsoft Teams にデプロイします。
 
-- **Implement Agent Flows for Business Automation:** Design and configure Power Automate flows that trigger travel approval processes and post notifications to Teams channels.
+- **業務自動化のためのエージェントフローの実装：** 出張承認プロセスをトリガーし、Teams チャネルに通知を投稿する Power Automate フローを設計および構成します。
 
-- **Build Multi-Agent Orchestration:** Create a specialized Leave Manager Agent and enable collaboration between multiple agents for comprehensive business solutions.
+- **マルチエージェントオーケストレーションの構築：** 専門的な Leave Manager Agent を作成し、複数のエージェント間で連携できるようにして、包括的なビジネスソリューションを実現します。
 
-- **Test End-to-End Workflows:** Validate agent responses, flow executions, and cross-agent handoffs to ensure reliable operation.
+- **エンドツーエンドのワークフローのテスト：** エージェントの応答、フローの実行、エージェント間のハンドオフを検証し、信頼性の高い動作を確保します。
 
-## Prerequisites
+## 前提条件
 
-- Basic Understanding of Conversational AI and Agentic AI Concepts
-- Working Knowledge of Microsoft Copilot Studio
-- Familiarity with Microsoft Teams and Power Platform
+- 会話型 AI およびエージェント型 AI の基本的な理解  
+- Microsoft Copilot Studio の実務知識  
+- Microsoft Teams および Power Platform の基本的な知識  
 
-## Explanation of Components
+## コンポーネントの説明
 
-- **Microsoft Copilot Studio:** Platform to build, configure, and manage conversational AI agents.
+- **Microsoft Copilot Studio：** 会話型 AI エージェントを構築、構成、管理するためのプラットフォーム  
 
-- **Dataverse:** Central data store for employee information, leave balances, and travel policies.
+- **Dataverse：** 従業員情報、休暇残高、出張ポリシーを格納する中央データストア  
 
-- **Power Platform Environment:** Secure workspace hosting agents, data tables, and workflows.
+- **Power Platform 環境：** エージェント、データテーブル、ワークフローをホストする安全なワークスペース  
 
-- **Power Automate:** Workflow automation engine for travel approval processes and Teams integration.
+- **Power Automate：** 出張承認プロセスおよび Teams 連携のためのワークフロー自動化エンジン  
 
-- **Microsoft Teams:** Collaboration hub where users interact with agents and receive approval notifications.
+- **Microsoft Teams：** ユーザーがエージェントとやり取りし、承認通知を受け取るコラボレーションハブ  
 
-- **Multi-Agent Orchestration:** Framework enabling specialized agents to work together and route requests intelligently.
+- **マルチエージェントオーケストレーション：** 専門的なエージェント同士が連携し、リクエストをインテリジェントに振り分けるフレームワーク  
 
-## Getting Started with the Lab
+## ラボの開始
 
-Welcome to your Build and Enhance a Safe Travels Agent with Multi-Agent Orchestration lab! We've prepared a seamless environment for you to explore and learn how to build, configure, and test intelligent travel assistance agents. This lab will guide you through creating AI agents, implementing business automation workflows, and establishing multi-agent orchestration to deliver a secure and efficient experience.
+「マルチエージェントオーケストレーションを用いた Safe Travels Agent の構築と強化」ラボへようこそ！このラボでは、インテリジェントな出張支援エージェントの構築、構成、およびテスト方法を体験できる環境が用意されています。AI エージェントの作成、業務自動化ワークフローの実装、マルチエージェントオーケストレーションの確立を通じて、安全で効率的な体験の提供方法を学びます。
 
-### Accessing Your Lab Environment
+### ラボ環境へのアクセス
 
-Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
+準備が整うと、仮想マシンおよびラボガイドは Web ブラウザー上ですぐに利用できます。
 
-![](../media/gs-travel-g5.png)
+![](../media/gs1.png)
 
-### Exploring Your Lab Resources
+### ラボリソースの確認
 
-To get a better understanding of your Lab resources and credentials, navigate to the Environment tab.
+ラボのリソースや資格情報を確認するには、Environment タブに移動してください。
 
-![](../media/gs-leave-2.png)
+![](../media/gs2.png)
 
-### Utilizing the Split Window Feature
+### 分割ウィンドウ機能の活用
 
-For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the top right corner
+利便性向上のため、右上の Split Window ボタンを選択すると、ラボガイドを別ウィンドウで開くことができます。
 
-![](../media/gs-leave-3.png)
+![](../media/gs3.png)
 
-### Managing Your Virtual Machine
+### 仮想マシンの管理
 
-From the **Resources (1)** tab, you can easily **start, stop, restart, or connect (2)** to your virtual machine—your experience is in your hands!
+**Resources (1)** タブから、仮想マシンの **起動、停止、再起動、接続 (2)** を簡単に行えます。すべての操作はあなたの手元で管理できます！
 
-![](../media/gs-leave-4.png)
+![](../media/gs7.png)
 
-## Let's Get Started with Power Apps Portal
 
-1. In the JumpVM, click on the **Microsoft Edge** browser shortcut on the desktop.
+## Power Apps ポータルを始めましょう
+
+1. JumpVM 上で、デスクトップにある **Microsoft Edge** ブラウザーのショートカットをクリックします。
 
    ![](../media/zgr-gt.png)
 
-1. Open a new browser tab and navigate to the Power Apps portal by entering the following URL:
+1. 新しいブラウザータブを開き、以下の URL を入力して Power Apps ポータルにアクセスします。
 
    ```
    https://make.powerapps.com/
@@ -82,17 +83,17 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
 
    - Email: **<inject key="AzureAdUserEmail"></inject>**
 
-     ![](../media/gs-lab3-g2.png)
+     ![](../media/gs4.png)
 
 1. On the **Enter Temporary Access Pass** screen, enter the following **Temporary Access Pass**, and then click **Sign in (2)**.
 
    - Temporary Access Pass: **<inject key="AzureAdUserPassword"></inject>**
 
-     ![](../media/gs-lab3-g3.png)
+     ![](../media/gs5.png)
      
 1. If you see the pop-up **Stay Signed in?**, click **No**.
 
-   ![](../media/gs-4.png)
+   ![](../media/gs6.png)
 
 1. If the **Welcome to Power Apps** pop-up appears, leave the default country/region selection and click **Get started**.
 
