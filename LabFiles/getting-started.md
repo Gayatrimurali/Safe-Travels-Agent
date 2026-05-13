@@ -94,15 +94,35 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
 
    ![](../media/gs-4.png)
 
-1. If the **Welcome to Power Apps** pop-up appears, leave the default country/region selection and click **Get started**.
+1. If the **Welcome to Power Apps** pop-up appears, leave the default country/region selection and select **Get started**.
 
-   ![](../media/gs-travel-g1.png)
+   ![](../media/eng1.png)
 
 1. You have now successfully logged in to the Power Apps portal. Keep the portal open.
 
-   ![](../media/gs-5.png)
+   ![](../media/eng2.png)
 
    > **Note:** We are signing in to the Power Apps portal because it automatically assigns a Developer license, which is required to create and use a Developer environment in the next steps.
+
+1. In the Power Apps portal, select **Tables (1)** from the left menu and select **Create a database (2)**.
+
+   ![](../media/eng3.png)
+
+   >**Note:** If you are not able to see **Create Database** option and you are able to see some tables already, please continue from **Step 10**.
+
+1. In the new pane for creating a new database, select **Create my Database**.
+
+   ![](../media/eng4.png)
+
+1. Once done, select **Create with Excel or .CSV file**.
+
+   ![](../media/eng5.png)
+
+1. In the pop-up window to create an environment, select **Create**. This will create a new Power Platform developer environment.
+
+   > **Note:** If you see a message stating you don’t have permission to create here, wait for a few minutes and refresh the page, as it may take some time for the environment to be ready.
+   
+1. If you are directly navigated to the **Upload an Excel or .CSV file pane**, please cancel the process.
 
 1. Open a new browser tab and navigate to the Power Platform admin center by entering the following URL:
 
@@ -110,74 +130,51 @@ From the **Resources (1)** tab, you can easily **start, stop, restart, or connec
    https://admin.powerplatform.microsoft.com
    ```
 
-1. In the **Power Platform admin center**, select **Manage** from the left navigation pane.
+1. In the **Power Platform admin center**, select **Manage (1)**, choose **Environments (2)**, and then select **ODL_User <inject key="DeploymentID" enableCopy="false"/>'s Environment (3)**.
 
-   ![](../media/nd-d2-cor-g-1.png)
+   ![](../media/eng6.png)
 
-1. In the Power Platform admin center, select **Environments (1)** from the left navigation pane, and then choose **New (2)** to create a new environment.
+   >Note: If you’re unable to see any environments, it may still be getting created in the background. This is expected behavior in Power Platform. Please wait 15–20 minutes and refresh the page to view the environment.
 
-   ![](../media/d2-coor-gs-g2.png)
+1. On the environment page, select **See all** under **S2S apps**.
 
-1. In the **New environment** pane, configure the environment with the following settings, and then select **Next (3)**:
+   ![](../media/eng7.png)
 
-   - Select **Developer (1)** from the **Type** dropdown.
-   - Enter **ODL_User <inject key="DeploymentID" enableCopy="false"></inject>'s Environment** in the **Name (2)** field.
+1. In the next pane, select **+ New app user**.
 
-      ![](../media/lev-mgmt-sb-gs-g1.png)
+   ![](../media/eng8.png)
 
-1. In the **Add Dataverse** pane, leave all settings as default, and then select **Save**.
+1. In the **Create a new app user** pane, under **App**, select **+ Add an app**.
 
-   ![](../media/lev-mgmt-sb-gs-g2.png)
+   ![](../media/eng9.png)
 
-   > **Environment Foundation:** This step creates the foundational environment that will support your agents with company-specific data and knowledge sources.
-
-   > **Note:** Environment provisioning may take 10-15 minutes to complete. Wait until the status shows as ready before proceeding.
-
-   > **Note:** If you see an error stating that the environment list cannot be displayed, this is expected while the environment is being created in the background. After 10-15 minutes, refresh the browser and the environment should appear.
-
-1. In the **Power Platform admin center**, select **Manage (1)**, choose **Environments (2)**, and then click **ODL_User <inject key="DeploymentID" enableCopy="false"/>'s Environment (3)**.
-
-   ![](../media/uppowadminimg1.png)
-
-1. In the environment page, click on **See all** under **S2S apps**.
-
-   ![](../media/pro-activ-gg-g3.png)
-
-1. In the next pane, click on **+ New app user**.
-
-   ![](../media/uppowadminimg3.png)
-
-1. In the create a new app user pane, under **App**, click on **+ Add an app**.
-
-   ![](../media/pro-activ-gg-g4.png)
-
-1. In the **Add an app from Microsoft Entra ID** pane, enter the URL provided below in the search box **(1)**, select the app from the results **(2)**, and then click **Add (3)**.
+1. In the **Add an app from Microsoft Entra ID** pane, enter the URL provided below in the search box **(1)**, select the app from the results **(2)**, and then select **Add (3)**.
 
    ```
    https://cloudlabssandbox.onmicrosoft.com/cloudlabs.ai/
    ```
 
-   ![](../media/pro-activ-gg-g5.png)
+   ![](../media/eng10.png)
 
-1. Under **Business unit**, enter **org (1)** in the search box, and then select the available business unit from the list **(2)**.
+1. Under Business Unit, click on the text input field to view the available options, and then select any one of the listed business units.
 
-   ![](../media/pro-activ-gg-g6.png)
+   ![](../media/eng11.png)
 
-1. Beside **Security roles** click on **Edit** icon.
+1. Next to **Security roles**, select the **Edit** icon.
 
-   ![](../media/pro-activ-gg-g7.png)
+   ![](../media/eng12.png)
 
-1. In the **Sync Permissions** pane, select **System Administrator (1)**, and then click **Save (2)**.
+1. In the **Sync Permissions** pane, select **System Administrator (1)**, and then select **Save (2)**.
 
-   ![](../media/pro-activ-gg-g8.png)
+   ![](../media/eng13.png)
 
-1. In the pop-up window, select **save**.
+1. In the pop-up window, select **Save**.
 
-   ![](../media/pro-activ-gg-g9.png)
+   ![](../media/eng14.png)
 
-1. Review all the details and click on **Create**.
+1. Review all the details and select **Create**.
 
-   ![](../media/pro-activ-gg-g10.png)
+   ![](../media/eng15.png)
 
 ## Support Contact
 
