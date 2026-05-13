@@ -46,7 +46,7 @@ Welcome to your Build and Enhance a Safe Travels Agent with Multi-Agent Orchestr
 
 Once you're ready to dive in, your virtual machine and Lab guide will be right at your fingertips within your web browser.
 
-![](../media/gs-travel-g5.png)
+![](../media/eng16.png)
 
 ### Exploring Your Lab Resources
 
@@ -58,7 +58,7 @@ To get a better understanding of your Lab resources and credentials, navigate to
 
 For convenience, you can open the Lab guide in a separate window by selecting the Split Window button from the top right corner
 
-![](../media/gs-leave-3.png)
+![](../media/eng18.png)
 
 ### Managing Your Virtual Machine
 
